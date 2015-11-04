@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+h1 {
+	font-size: 50px;
+	font-family:   'Lobster', cursive;
+	position: center;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #330033;
+	padding: 20px;
+
+}
+
+#prompt {
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family:   'Lobster', cursive;
+
+}
+
+#log {
+	height: 300px;
+	width: 400px;
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #330033;
+	padding: 50px;
+	color: white;
+	border-radius: 10px;
+	font-family:   'Lobster', cursive;
+	border-style: double;
+	border-color: #ccffe6;
+	border-width: 3px;
+}
+
+.container {
+	padding-top: 20px;
+	margin-top: 20px;
+	padding: 80px;
+	height: 500px;
+	width: 500px;
+	position: center;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #CCFFCC;
+	border-radius: 10px;
+	font-family:   'Lobster', cursive;
+	border-style: double;
+	border-color: #630063;
+	border-width: 3px;
+}
+
+.listItems {
+	font-size: 20px;
+	color: white;
+	font-family:   'Lobster', cursive;
+}
+
+
+
