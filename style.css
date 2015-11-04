@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
+body {
+	background-image: url('http://cdn.images.express.co.uk/img/dynamic/80/590x/secondary/163829.jpg');
+}
+
 h1 {
-	font-size: 50px;
+	font-size: 70px;
 	font-family:   'Lobster', cursive;
 	position: center;
 	text-align: center;
@@ -9,38 +13,11 @@ h1 {
 	margin-top: 10px;
 	color: #330033;
 	padding: 20px;
+/*	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ccffe6;*/
 
-}
 
-#prompt {
-	position: center;
-	margin: 0 auto;
-	text-align: center;
-	float: center;
-	height: 50px;
-	width: 400px;
-	font-size: 20px;
-	border-radius: 10px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	font-family:   'Lobster', cursive;
 
-}
-
-#log {
-	height: 300px;
-	width: 400px;
-	position: center;
-	margin: 0 auto;
-	text-align: center;
-	background-color: #330033;
-	padding: 50px;
-	color: white;
-	border-radius: 10px;
-	font-family:   'Lobster', cursive;
-	border-style: double;
-	border-color: #ccffe6;
-	border-width: 3px;
 }
 
 .container {
@@ -58,7 +35,48 @@ h1 {
 	border-style: double;
 	border-color: #630063;
 	border-width: 3px;
+
 }
+
+#containerId {
+	opacity: 0.95;
+}
+
+#prompt {
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	float: center;
+	height: 50px;
+	width: 400px;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family:   'Lobster', cursive;
+	
+
+}
+
+#log {
+	height: 300px;
+	width: 400px;
+	position: center;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #330033;
+	padding: 50px;
+	color: white;
+	border-radius: 10px;
+	font-family:   'Lobster', cursive;
+	border-style: double;
+	border-color: #ccffe6;
+	border-width: 3px;
+	font-size: 15px;
+
+}
+
+
 
 .listItems {
 	font-size: 20px;

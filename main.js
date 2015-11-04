@@ -3,13 +3,13 @@ $(document).ready(function() {
 	var $prompt = $('#prompt');
 	var $log = $('#log');
 
-	var addPrompt = function(){
-		console.log(event.target);
-		var promptList = document.createElement('li');
-		$('li').addClass('listItems');
-		var $listItems = $('.listItems');
-		promptList = $prompt.val();
-		$listItems.append(promptList);
+	var addPrompt = function(event){
+		console.log(event);
+		var $promptList = $('<li>');
+		// $('li').addClass('listItems');
+		// var $listItems = $('.listItems');
+		$promptList.text($prompt.val());
+		$log.append($promptList);
 		$('#prompt').val('');
 
 		};
@@ -17,7 +17,10 @@ $(document).ready(function() {
 
 	$prompt.on('keypress', function(event){
 		if (event.keyCode === 13){
-			addPrompt();
+			addPrompt(event);
 		}
 	});
 });
+
+
+	
